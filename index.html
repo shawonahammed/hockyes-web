@@ -341,44 +341,81 @@
               <h3> (+62) 123-321-543</h3>
             </div>
 
-
           </div>
-          <div class=" grid grid-cols-1 lg:grid-cols-2 lg:col-span-2 gap-4 ">
-            <div class="space-y-2">
-              <label for="">Your Name</label>
-              <input type="text" placeholder="Enter Your Name" class="input input-bordered w-full  " />
+          <div class="lg:col-span-2">
+            <div class=" grid grid-cols-1 lg:grid-cols-2  gap-4 ">
+              <div class="space-y-2">
+                <label for="">Your Name</label>
+                <input type="text" placeholder="Enter Your Name" class="input input-bordered w-full  " />
+              </div>
+              <div class="space-y-2">
+                <label for=""> Yore Email</label>
+                <input type="text" placeholder="Enter Your Email" class="input input-bordered w-full " />
+              </div>
+              <div class="space-y-2">
+                <label for="Your Name">Subject</label>
+                <input type="text" placeholder="Type here" class="input input-bordered w-full " />
+              </div>
+              
+              <div class="space-y-2">
+                <label for="Your Name">Mobile Number</label>
+                <input type="text" placeholder="Type here" class="input input-bordered w-full " />
+              </div>
             </div>
-            
-            <div class="space-y-2">
-              <label for=""> Yore Email</label>
-              <input type="text" placeholder="Enter Your Email" class="input input-bordered w-full " />
-            </div>
-            
-            <div class="space-y-2">
-              <label for="Your Name">Subject</label>
-              <input type="text" placeholder="Type here" class="input input-bordered w-full " />
-            </div>
-            
-            <div class="space-y-2">
-              <label for="Your Name">Mobile Number</label>
-              <input type="text" placeholder="Type here" class="input input-bordered w-full " />
-            </div>
-            <div class="lg:col-span-2 space-y-2">
+            <div class=" space-y-2">
               <label for="Your Name">Message</label>
               <textarea class="textarea w-full textarea-bordered" placeholder="Enter Message " rows="5"></textarea>
-              
             </div>
             <button class="btn btn-error mt-4 col-span-2 ">Send Message</button>
-            
-            
           </div>
+          
         </div>
       </section>
-
+      <!-- social Media section -->
+      <section class="mt-12 bg-slate-100">
+        <h2 class=" text-center font-extrabold text-4xl pt-10 ">Social Media</h2>
+        <div class="flex justify-center gap-8 mt-5 pb-6 ">
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-instagram"></i>
+        </div>
+      </section>
     </main>
-    <footer>
-
+    <footer class="footer p-10 bg-black text-white text-base-content mt-14 flex justify-around flex-col lg:flex-row">
+      <div>
+        <h3 class="text-4xl font-extrabold">Get In Touch</h3>
+        <p>Dit amet consectetur. Condimentum  adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+        <div class="flex gap-4">
+          <i class="fa-solid fa-envelope text-red-500"></i>
+          <p>hockeys@support.com</p>
+        </div>
+        <div class="flex gap-4">
+          <i class="fa-solid fa-phone text-red-500"></i>
+          <p>(+62) 123-321-543</p>
+        </div>
+      </div>
+      <div class="grid grid-cols-2 gap-40 ">
+        <nav>
+          <h6 class="footer-title">Services</h6> 
+          <a class="link link-hover">Branding</a>
+          <a class="link link-hover">Design</a>
+          <a class="link link-hover">Marketing</a>
+          <a class="link link-hover">Advertisement</a>
+        </nav> 
+        <nav>
+          <h6 class="footer-title">Company</h6> 
+          <a class="link link-hover">About us</a>
+          <a class="link link-hover">Contact</a>
+          <a class="link link-hover">Jobs</a>
+          <a class="link link-hover">Press kit</a>
+        </nav> 
+      </div>
+      <nav>
+        <h6 class="footer-title">Legal</h6> 
+        <a class="link link-hover">Terms of use</a>
+        <a class="link link-hover">Privacy policy</a>
+        <a class="link link-hover">Cookie policy</a>
+      </nav>
     </footer>
-    
 </body>
 </html>
